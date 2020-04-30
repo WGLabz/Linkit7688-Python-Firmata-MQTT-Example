@@ -57,7 +57,7 @@ while 1:
         print("Temperature: "+str(temperature))
         print("Humidity: "+str(humidity))
     
-    client.publish("home/linkit/dht12", sensor_data)
+    client.publish("home/linkit/dht12", str(sensor_data))
     
     board.digital_write(BOARD_LED, 1)
     time.sleep(.5)
