@@ -1,3 +1,8 @@
+## DHT12 Connection Diagram:-
+
+![Imgge](Schematic.png)
+
+
 ## Dependencies:-
 
 1. Firmata library for Python [Pymata](https://htmlpreview.github.io/?https://raw.githubusercontent.com/MrYsLab/PyMata/master/documentation/html/pymata.m.html#header-classes)
